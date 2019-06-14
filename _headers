@@ -78,13 +78,6 @@
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
   Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
   Link: </component---src-templates-page-template-js-247473c5bf4d8b678cc3.js>; rel=preload; as=script
-/pages/contacts/
-  Link: </webpack-runtime-d53f512b736ebc323eaa.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-247473c5bf4d8b678cc3.js>; rel=preload; as=script
 /posts/perfecting-the-art-of-perfection/
   Link: </webpack-runtime-d53f512b736ebc323eaa.js>; rel=preload; as=script
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
@@ -93,6 +86,13 @@
   Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
   Link: </2-4f6d45f043ee5c3e9356.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-cc3a26fac0a25fe6efa3.js>; rel=preload; as=script
+/pages/contacts/
+  Link: </webpack-runtime-d53f512b736ebc323eaa.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-247473c5bf4d8b678cc3.js>; rel=preload; as=script
 /posts/the-origins-of-social-stationery-lettering
   Link: </webpack-runtime-d53f512b736ebc323eaa.js>; rel=preload; as=script
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
