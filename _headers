@@ -78,13 +78,6 @@
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
   Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
   Link: </component---src-templates-page-template-js-320e8ad6061a8fe62a41.js>; rel=preload; as=script
-/pages/contacts/
-  Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-320e8ad6061a8fe62a41.js>; rel=preload; as=script
 /posts/perfecting-the-art-of-perfection/
   Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
@@ -93,7 +86,22 @@
   Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
   Link: </2-4f6d45f043ee5c3e9356.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-1e1d95b5ed9a11f9904c.js>; rel=preload; as=script
+/pages/contacts/
+  Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-320e8ad6061a8fe62a41.js>; rel=preload; as=script
 /posts/the-origins-of-social-stationery-lettering
+  Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
+  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
+  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
+  Link: </2-4f6d45f043ee5c3e9356.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-1e1d95b5ed9a11f9904c.js>; rel=preload; as=script
+/posts/190622-til/
   Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
   Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
@@ -110,14 +118,6 @@
   Link: </2-4f6d45f043ee5c3e9356.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-1e1d95b5ed9a11f9904c.js>; rel=preload; as=script
 /posts/humane-typography-in-the-digital-age/
-  Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
-  Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
-  Link: </1-623f3152bbf8a9b792ad.js>; rel=preload; as=script
-  Link: </2-4f6d45f043ee5c3e9356.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-1e1d95b5ed9a11f9904c.js>; rel=preload; as=script
-/posts/190622-til/
   Link: </webpack-runtime-7d4f995e12b1c8afd32a.js>; rel=preload; as=script
   Link: </styles-1b66b9dc7d8b3961f884.js>; rel=preload; as=script
   Link: </app-9514d87f7296e232671c.js>; rel=preload; as=script
