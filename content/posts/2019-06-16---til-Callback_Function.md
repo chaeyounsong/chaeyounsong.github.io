@@ -1,5 +1,5 @@
 ---
-title: "Callback Function 이해하기"
+title: "Callback Function 왜 쓸까?"
 date: "2019-06-16T22:40:32.169Z"
 template: "post"
 draft: false
