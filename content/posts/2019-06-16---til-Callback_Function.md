@@ -31,19 +31,28 @@ codeacademy javascript 예제 문제를 풀다가,
 
 ex 01. 단순한 콜백의 모습
 
-a = {
-    b:function(){
-    }
-};
+```js
+const a = () => {
+    console.log('i\'m a.');
+}
+
+const b = (a) => {
+    a();
+}
+```
 
 바로 '함수 안의 함수'입니다.
 
 ex 02. 콜백이 왜 생겼는 지 알 게 되는 예제 
 
-var numbers = [20,10,9,8,7,6,5,4,3,2,1]
+```js
+var numbers = [20,10,9,8,7,6,5,4,3,2,1] 
 // 배열 값의 숫자들을 정리하기 위해 'sort()'를 이용해보겠습니다.
 console.log(numbers.sort());
 // [1, 10, 2, 20, 3, 4, 5, 6, 7, 8, 9]
+```
+
+
 // 예상대로 정리되었나요? 정리되지 않았습니다.
 파일명에 1사진,2사진,10사진이라고 적어보셨나요?
 적어보면 컴퓨터는 1사진, 10사진, 2사진으로 정리해줍니다.
@@ -89,6 +98,7 @@ array.sort(sortfunc)를 추가해주면 우리가 원하는대로
 
 연습 예제 (1)
 
+```js
 function cal(mode){
     var funcs = {
         'plus' : function(left, right){return left + right},
@@ -98,9 +108,10 @@ function cal(mode){
 }
 alert(cal('plus')(2,1));
 alert(cal('minus')(2,1)); 
-
+```
 연습 예제 (2)
 
+```js
 var process = [
     function(input){ return input + 10;},
     function(input){ return input * input;},
@@ -111,3 +122,4 @@ for(var i = 0; i < process.length; i++){
     input = process[i](input);
 }
 alert(input);
+```
