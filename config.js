@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Chaeyoun Song',
     photo: '/scy.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Hello World! I started to have shared my life!',
     contacts: {
       email: '#',
       telegram: '#',
