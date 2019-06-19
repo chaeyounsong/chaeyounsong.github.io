@@ -1,5 +1,5 @@
 ---
-title: git과 github
+title: git과 github란 무엇일까?
 date: "2019-06-22T22:40:32.169Z"
 template: "post"
 draft: false
