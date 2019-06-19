@@ -23,8 +23,8 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
+    name: 'Chaeyoun Song',
+    photo: '/scy.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
       email: '#',
