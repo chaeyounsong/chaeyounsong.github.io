@@ -1,6 +1,6 @@
 ---
 title: git과 github란 무엇일까?
-date: "2019-06-22T22:40:32.169Z"
+date: "2019-06-19T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/190622-til/"
@@ -22,8 +22,7 @@ description: "git, github"
 소스코드(ex. server.js)의 변경사항 내역을 관리하는 시스템
 최신 버전의 코드만 가지고 있는 것이 아니라,
 그동안 작업한 내역, 변경 내역을 볼 수 있습니다.
-git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 확인할 수 
-있도록 제작되었습니다.
+git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 확인할 수 있도록 제작되었습니다.
 
 1. 코드 변경 사항 내역 기록 및 관리
 2. 필요시 이전 상태로 rollback
@@ -31,7 +30,8 @@ git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 �
 
 ## git이 운영되는 방법
 
-1. 소스코드 전체를 다운로드 받습니다 (전문적인 언어로, "git repository를 checkout 한다" 고 합니다).
+1. 소스코드 전체를 다운로드 받습니다 
+전문적인 언어로, git repository를 checkout 한다고 합니다.
 2. 소스코드 파일들을 수정 합니다. 즉 개발을 한다는 말입니다.
 3. 수정한 파일들을 stage 합니다.
 4. 그리고 계속 해서 소스코드 파일들을 수정해 나갑니다.
@@ -47,7 +47,13 @@ git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 �
 4. 만약에 공동 작업 내역으로 인한 오류로 
 conflict 오류가 뜨면
 5. program에서 개발자 유저에게 물어봄.
-modify > add . > commit >  push git status > conflict > push가 안되면 > force push
+
+modify  
+add . 
+commit 
+push git status
+conflict
+push가 안되면 force push
 
 
 # gitt basic commend
@@ -59,11 +65,12 @@ modify > add . > commit >  push git status > conflict > push가 안되면 > forc
 프로젝트(project)라 함은 개발하고자 하는 소스코드들이 있는 디렉토리를 말합니다. 
 git init을 해서 git repo로 만들어야 git으로 버전 관리가 시작
 
-### git add .
+### git add
 
 수정 사항들, 즉 modified 파일을 staged 상태로 옮길 때 사용하는 명령어.
-git repo에 새로 추가된 파일들을 staged 상태로 옮길때도 사용. 
-새로이 추가된 파일들은 "untracked" 파일 이라고 하는데, 
+git repo에 새로 추가된 파일들을 
+staged 상태로 옮길때도 사용. 
+새로이 추가된 파일들은 untracked 파일 이라고 하는데, 
 git에서는 이들도 수정해야할 파일로 파악하게 됨.
 
 ### git commit
@@ -81,7 +88,8 @@ Modified 된 파일들만 git diff로 볼 수 있습니다.
 
 현재 상태를 보여주는 명령어. 
 어떠한 파일들이 modified가 되었고 
-어떠한 파일들이 staged가 되었는지 등의 전체적인 현황을 확인.
+어떠한 파일들이 staged가 되었는지 등의 
+전체적인 현황을 확인.
 
 ### git log
 
