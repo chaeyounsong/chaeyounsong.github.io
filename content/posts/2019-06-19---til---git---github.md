@@ -1,14 +1,14 @@
 ---
-title: git과 github란 무엇일까?
-date: "2019-06-19T22:40:32.169Z"
+title: git과 github 주요 명령어
+date: "2019-06-20T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/190622-til/"
+slug: "/posts/190620-til/"
 category: "git"
 tags:
   - "git"
   - "github"
-description: "git, github"
+description: "git과 github 주요 명령어"
 ---
 
 ![](/media/movable-type.jpg)
@@ -19,8 +19,7 @@ description: "git, github"
 ## git
 — VCS (Version Control System)
 
-소스코드(ex. server.js)의 변경사항 내역을 관리하는 시스템
-최신 버전의 코드만 가지고 있는 것이 아니라,
+소스코드(ex. server.js)의 변경사항 내역을 관리하는 시스템 최신 버전의 코드만 가지고 있는 것이 아니라,
 그동안 작업한 내역, 변경 내역을 볼 수 있습니다.
 git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 확인할 수 있도록 제작되었습니다.
 
