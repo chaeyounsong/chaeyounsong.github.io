@@ -1,5 +1,5 @@
 ---
-title: git과 github 주요 명령어
+title: git과 github은 무엇? 그리고 주요 명령어
 date: "2019-06-20T22:40:32.169Z"
 template: "post"
 draft: false
