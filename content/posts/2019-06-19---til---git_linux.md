@@ -11,9 +11,9 @@ tags:
 description: "git, github"
 ---
 
-![](/media/image-2.jpg)
+![](/media/movable-type.jpg)
 
-- [github](https://github.com/)
+- [github](https://www.github.com/)
 - [linux](https://www.linux.org/)
 
 ## git
@@ -25,35 +25,35 @@ description: "git, github"
 git은 개발자들의 협업하면서 자료로 공유하고 수정사항을 확인할 수 
 있도록 제작되었습니다.
 
-(1) 코드 변경 사항 내역 기록 및 관리
-(2) 필요시 이전 상태로 rollback
-(3) 팀단위 개발 시 체계적이고 효과적인 협업
+1. 코드 변경 사항 내역 기록 및 관리
+2. 필요시 이전 상태로 rollback
+3. 팀단위 개발 시 체계적이고 효과적인 협업
 
 ## git이 운영되는 방법
 
-(1) 소스코드 전체를 다운로드 받습니다 (전문적인 언어로, "git repository를 checkout 한다" 고 합니다).
-(2) 소스코드 파일들을 수정 합니다. 즉 개발을 한다는 말입니다.
-(3) 수정한 파일들을 stage 합니다.
-(4) 그리고 계속 해서 소스코드 파일들을 수정해 나갑니다.
-(5) 해당 작업이 완료될때까지, 즉 commit 할 준비가 될때까지, 3,4번을 반복합니다.
-(6) 완료되면 commit 합니다. 
+1. 소스코드 전체를 다운로드 받습니다 (전문적인 언어로, "git repository를 checkout 한다" 고 합니다).
+2. 소스코드 파일들을 수정 합니다. 즉 개발을 한다는 말입니다.
+3. 수정한 파일들을 stage 합니다.
+4. 그리고 계속 해서 소스코드 파일들을 수정해 나갑니다.
+5. 해당 작업이 완료될때까지, 즉 commit 할 준비가 될때까지, 3,4번을 반복합니다.
+6. 완료되면 commit 합니다. 
 
 ## github이 운영되는 방법
 — 팀원들과 함께 일하기
 
-(1) pull 최신 업데이트 내용을 당겨오면서 
-(2) master branch 자신이 수정한 내용이 합쳐지고
-(3) merge 작업
-(4) 만약에 공동 작업 내역으로 인한 오류로 
+1. pull 최신 업데이트 내용을 당겨오면서 
+2. master branch 자신이 수정한 내용이 합쳐지고
+3. merge 작업
+4. 만약에 공동 작업 내역으로 인한 오류로 
 conflict 오류가 뜨면
-(5) program에서 개발자 유저에게 물어봄.
+5. program에서 개발자 유저에게 물어봄.
 modify > add . > commit >  push git status > conflict > push가 안되면 > force push
 
 
-## gitt basic commend
+# gitt basic commend
 
 
-## git init
+### git init
 
 프로젝트를 git repository로 만드는 명령어 
 프로젝트(project)라 함은 개발하고자 하는 소스코드들이 있는 디렉토리를 말합니다. 
