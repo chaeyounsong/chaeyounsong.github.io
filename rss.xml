@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 09:27:38 GMT</lastBuildDate><item><title><![CDATA[react 오답노트 className]]></title><description><![CDATA[리액트에서 css 값을 모두 공유하게 된다.]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 09:33:59 GMT</lastBuildDate><item><title><![CDATA[react 오답노트 className]]></title><description><![CDATA[리액트에서 css 값을 모두 공유하게 된다.]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://reactjs.org/&quot;&gt;react&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -26,7 +26,7 @@ replace를 눌러주면 하나-하나씩 수정하지 않고도 전체 수정할
 같은 className을 통해
 여러 페이지에 적용되며
 여러 페이지에서 활용할 수 있다는
-매력을 갖고 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹은 왜 존재할까? HTML은 쉽지만 중요하다.]]></title><description><![CDATA[웹은 왜 생겼을까?]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 17:00:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/img_coding.jpg&quot;&gt;&lt;/p&gt;
+매력을 갖고 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹은 왜 존재할까? HTML의 a 태그]]></title><description><![CDATA[웹은 왜 생겼을까?]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 17:00:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/img_coding.jpg&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://info.cern.ch&quot;&gt;first website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.w3.org/&quot;&gt;world wide web&lt;/a&gt;&lt;/li&gt;
@@ -108,7 +108,7 @@ a 태그 뒤에 href가 붙는 이유는
 &lt;p&gt;이러한 이유로 단락을 명확히 구분하는 코드를 사용하는
 웹 사이트가 검색 로봇들이 우선순위로 보여진다.&lt;/p&gt;
 &lt;p&gt;왜냐하면 시각이나 청각이 불편한 사람들도
-정보 자료를 공유하고 공유 받을 권리가 있기 때문이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[github블로그 커스터마이징 방법]]></title><description><![CDATA[프로필 사진, contact 정보 변경하기]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 16:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/new_intro.jpg&quot;&gt;&lt;/p&gt;
+정보 자료를 공유하고 공유 받을 권리가 있기 때문이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[github블로그 자기소개 커스터마이징]]></title><description><![CDATA[프로필 사진, contact 정보 변경하기]]></description><link>https://chaeyounsong.github.io//posts/190624-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190624-til/</guid><pubDate>Mon, 24 Jun 2019 16:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/new_intro.jpg&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;react&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
