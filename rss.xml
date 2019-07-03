@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 03 Jul 2019 11:21:25 GMT</lastBuildDate><item><title><![CDATA[웹이 돌아가는 골격 html,css,js,php]]></title><description><![CDATA[how to process to webpage.]]></description><link>https://chaeyounsong.github.io//posts/190703-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190703-til/</guid><pubDate>Wed, 03 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 03 Jul 2019 12:15:48 GMT</lastBuildDate><item><title><![CDATA[첫 웹사이트 mysql,php와 통해 제작]]></title><description><![CDATA[첫 웹사이트 php,mysql,html,js,css]]></description><link>https://chaeyounsong.github.io//posts/190704-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190704-til/</guid><pubDate>Thu, 04 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/portfolio/mysql_data_site.jpg&quot;&gt;
+&lt;img src=&quot;/media/portfolio/board_and_uploader.jpg&quot;&gt;
+&lt;img src=&quot;/media/portfolio/mysql_data.jpg&quot;&gt;
+&lt;img src=&quot;/media/portfolio/text_site.jpg&quot;&gt;
+&lt;img src=&quot;/media/portfolio/index.php&quot;&gt;
+&lt;img src=&quot;/media/portfolio/process.php&quot;&gt;
+&lt;img src=&quot;/media/portfolio/style.css&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;github은-static한-사이트만-올릴-수-있다&quot;&gt;&lt;a href=&quot;#github%EC%9D%80-static%ED%95%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%8C-%EC%98%AC%EB%A6%B4-%EC%88%98-%EC%9E%88%EB%8B%A4&quot; aria-label=&quot;github은 static한 사이트만 올릴 수 있다 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;github은 static한 사이트만 올릴 수 있다.&lt;/h2&gt;
+&lt;p&gt;처음에 mysql을 어떻게 올려야 데이터를 보여줄 수 있을 지
+한참 고민했다. 하지만 알아보니 github은 따로 서버를 구축하고 mysql을 지원하는 웹서버 사이트에서 보여줄 수 있다.
+차후 이 문제를 어떻게 해결하면 좋을 지, 더 공부해봐야겠다.
+처음에는 txt파일을 php로 연결해서 사용했는데,
+이 버전은 보안상 문제가 커서 이제는 사용되지 않는 방법이라
+mysql을 공부해서 만들어보았다.&lt;/p&gt;
+&lt;h2 id=&quot;mysql로-db-만들기&quot;&gt;&lt;a href=&quot;#mysql%EB%A1%9C-db-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;mysql로 db 만들기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mysql로 dB 만들기&lt;/h2&gt;
+&lt;p&gt;mysql가 들어있는 폴더 경로까지 이동한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mysql -hlocalhost -uroot -p&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-p는 비밀번호를 숨기기 위한 코드이다.&lt;/p&gt;
+&lt;p&gt;다음은 mysql database 생성코드이며,
+show 다음은
+databases가 잘 만들어졌는가 확인하는 코드이다.
+내부 함수나 기능은 대문자로 표기해
+수정할 수 있는 내용과 수정할 수 없는 부분을 분리한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CREATE DATABASE site_name default CHARACTER SET UTF8; 
+SHOW databases;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;나는 데이터베이스 이름을 사이트명으로 사용하기로 했다.&lt;/p&gt;
+&lt;h2 id=&quot;db안에-table-value-key값-만들기&quot;&gt;&lt;a href=&quot;#db%EC%95%88%EC%97%90-table-value-key%EA%B0%92-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;db안에 table value key값 만들기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;dB안에 table value (key값 만들기)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CREATE TABLE topic 
+( _id INT PRIMARY KEY AUTO_INCREMENT, 
+`title` VARCHAR(20) NOT NULL, 
+`author` VARCHAR(20) NOT NULL,
+`description` VARCHAR(50) NOT NULL,
+`created` submission_date DATE) ENGINE=INNODB;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;topic이라는 테이블을 만든다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;아이디값을 정수형(int)으로 받겠다는 뜻이다.
+1씩 증가한다.아이디값은 기준점이 되어
+데이터를 찾는 방법이된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;제목 값이며 20자(varchar(20))를 넘지 않게 한다.
+빈공간을 허용하지 않는다.(=not null)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;작성자 이름을 20자이내로 받고 빈공간을 허용하지 않음&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;내용이며 50자이내로 받고 빈공간 허용하지 않음&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;만들어진 시간을 받기 위한 값
+시간을 받는 내부함수를 통해 입력값을 받는다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;INnodb를 통해 테이블이 운영된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;uploader를-제공하는-사이트&quot;&gt;&lt;a href=&quot;#uploader%EB%A5%BC-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EC%82%AC%EC%9D%B4%ED%8A%B8&quot; aria-label=&quot;uploader를 제공하는 사이트 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;uploader를 제공하는 사이트&lt;/h2&gt;
+&lt;p&gt;uploader 기능을 제공하는 사이트가 있다.
+uploader 기능을 통해 사진이나 파일을 올릴 수 있는
+호스팅 서버를 갖고 또한 사용자가 파일을 올릴 수 있는 버튼과
+기능을 넣어준다.&lt;/p&gt;
+&lt;p&gt;얼마나 대단한가 ㅠㅠ!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://uploadcare.com/&quot;&gt;uploadcare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위젯 코드를 받아서 원하는 위치에 넣고
+자바스크립트를 통해 사이트에서 생성하는 이미지 주소를
+img 태그를 통해 연결하면 사이트에 자동으로 올라온다.&lt;/p&gt;
+&lt;p&gt;물론 이건 php파일에서 사용하겠다고
+mysql 정보와 자바스크립트 코드가 들어가야한다.
+나의 경우에는&lt;/p&gt;
+&lt;p&gt;nav에 제목이 업데이트되고
+description은 클릭했을 시 보이며
+사진은 img태그에 주소값을 id값 기준으로 받게 했다.&lt;/p&gt;
+&lt;p&gt;mysql를 사용해서 데이터베이스를 운영하는 건
+이미 오래된 웹사이트를 만드는 방식이라고 한다.&lt;/p&gt;
+&lt;p&gt;그래서 결국 파이썬을 공부하게 될 것 같다.&lt;/p&gt;
+&lt;h2 id=&quot;데이터의-기준점-id값&quot;&gt;&lt;a href=&quot;#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EA%B8%B0%EC%A4%80%EC%A0%90-id%EA%B0%92&quot; aria-label=&quot;데이터의 기준점 id값 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;데이터의 기준점 ID값&lt;/h2&gt;
+&lt;p&gt;처음에 사이트를 만들 때 html 여러개의 파일을 만들었다.
+그렇다면 1억개의 페이지를 갖는 경우 유지보수가 어려울 것이다. 그런데 ID가 생기면서
+PHP안에 여러 페이지를 운영할 수 있었다.&lt;/p&gt;
+&lt;p&gt;또한 사용자가 입력한 값을 dB에 넣을 때도 사용하며
+후에 value를 수정하거나 삭제해야할 때도 ID를 기준으로
+작업하게 된다.&lt;/p&gt;
+&lt;p&gt;ID라는 개념을 만들었다는 사실에 놀라고
+감사한다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹이 돌아가는 골격 html,css,js,php]]></title><description><![CDATA[how to process to webpage.]]></description><link>https://chaeyounsong.github.io//posts/190703-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190703-til/</guid><pubDate>Wed, 03 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;웹이-돌아가는-골격-공부하기&quot;&gt;&lt;a href=&quot;#%EC%9B%B9%EC%9D%B4-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EA%B3%A8%EA%B2%A9-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0&quot; aria-label=&quot;웹이 돌아가는 골격 공부하기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;웹이 돌아가는 골격 공부하기&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
