@@ -16,18 +16,23 @@ description: "첫 웹사이트 php,mysql,html,js,css"
 ![](/media/portfolio/board_and_uploader.jpg)
 ![](/media/portfolio/mysql_data.jpg)
 ![](/media/portfolio/text_site.jpg)
-![](/media/portfolio/index.php)
-![](/media/portfolio/process.php)
-![](/media/portfolio/style.css)
+
 
 ## github은 static한 사이트만 올릴 수 있다.
 
 처음에 mysql을 어떻게 올려야 데이터를 보여줄 수 있을 지
-한참 고민했다. 하지만 알아보니 github은 따로 서버를 구축하고 mysql을 지원하는 웹서버 사이트에서 보여줄 수 있다.
+한참 고민했다. 하지만 알아보니 github은 static(html,css,js로 제작)한 사이트만 올릴 수 있다고 한다.
+
+mysql을 지원하는 웹서버 호스팅 사이트에서 보여줄 수 있다.
 차후 이 문제를 어떻게 해결하면 좋을 지, 더 공부해봐야겠다.
+
+## mysql을 공부하게 된 이유
+
 처음에는 txt파일을 php로 연결해서 사용했는데,
 이 버전은 보안상 문제가 커서 이제는 사용되지 않는 방법이라
 mysql을 공부해서 만들어보았다.
+물론 mysql도 오래된 제작 방법이라고 하니
+결국 파이썬을 배우게 될 것 같다.
 
 ## mysql로 dB 만들기
 
@@ -92,8 +97,6 @@ uploader 기능을 통해 사진이나 파일을 올릴 수 있는
 호스팅 서버를 갖고 또한 사용자가 파일을 올릴 수 있는 버튼과
 기능을 넣어준다.
 
-얼마나 대단한가 ㅠㅠ!
-
 - [uploadcare](https://uploadcare.com/)
 
 위젯 코드를 받아서 원하는 위치에 넣고
@@ -107,11 +110,6 @@ mysql 정보와 자바스크립트 코드가 들어가야한다.
 nav에 제목이 업데이트되고
 description은 클릭했을 시 보이며
 사진은 img태그에 주소값을 id값 기준으로 받게 했다.
-
-mysql를 사용해서 데이터베이스를 운영하는 건 
-이미 오래된 웹사이트를 만드는 방식이라고 한다.
-
-그래서 결국 파이썬을 공부하게 될 것 같다.
 
 ## 데이터의 기준점 ID값
 
