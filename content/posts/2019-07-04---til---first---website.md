@@ -16,6 +16,7 @@ description: "첫 웹사이트 php,mysql,html,js,css"
 ![](/media/portfolio/board_and_uploader.jpg)
 ![](/media/portfolio/mysql_data.jpg)
 ![](/media/portfolio/text_site.jpg)
+![](/media/portfolio/index.php)
 
 
 ## github은 static한 사이트만 올릴 수 있다.
