@@ -1,0 +1,103 @@
+header {
+  border-bottom : 1px solid gray;
+  padding : 20px;
+}
+
+header a {
+  text-decoration: none;
+  color : black;
+}
+
+header img {
+
+    padding-top : 27px;
+    padding-right : 15px;
+    float : left;
+    height : 30px;
+
+}
+
+
+nav {
+
+  border-right : 1px solid gray;
+  width : 200px;
+  height : 1000px;
+  float : left;
+  padding-top : 30px;
+
+
+}
+
+nav a {
+
+  text-decoration: none;
+  color : gray;
+
+}
+
+nav ol {
+  list-style: none;
+  padding : 20px;
+}
+
+ol li {
+  padding-bottom : 15px;
+}
+
+article {
+
+float: left;
+padding : 20px;
+margin-left : 20px;
+width : 500px;
+
+}
+
+article ul {
+
+list-style : none;
+line-height : 40px;
+
+}
+
+h2 {
+  color : gray;
+}
+
+
+body.white {
+  background-color: white;
+  color : black;
+}
+
+body.black {
+  background-color: black;
+  color : white;
+}
+
+
+.control{
+  float : right;
+}
+
+.btnDesign {
+
+  width : 50px;
+  height : 50px;
+  margin-top : 15px;
+  margin-right : 10px;
+  background-color: white;
+  border : 1px solid gray;
+  border-radius: 1em;
+}
+
+.dsq-app769 {
+  max-width : 500px !IMPORTANT;
+}
+
+.main-img {
+
+  padding-top : 23px;
+
+}
