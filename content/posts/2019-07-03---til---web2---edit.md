@@ -1,17 +1,18 @@
 ---
-title: 웹이 돌아가는 골격 html,css,js,php
-date: "2019-06-26T23:22:32.169Z"
+title: "웹이 돌아가는 골격 html,css,js,php"
+date: "2019-07-03T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/190626-til/"
+slug: "/posts/190703-til/"
 category: "web"
 tags:
-  - "css"
-  - "html"
-description: "html과 css 그리고 js와 php"
+  - "web"
+
+description: "how to process to webpage."
 ---
 
-![](/media/image-1.jpg)
+![](/media/image-4.jpg)
+
 
 
 ## 웹이 돌아가는 골격 공부하기
