@@ -12,7 +12,7 @@ tags:
 description: "첫 웹사이트 php,mysql,html,js,css"
 ---
 
-![](/media/test-home.jpg)
+![](/media/uploader.jpg)
 
 ## index.php
 
