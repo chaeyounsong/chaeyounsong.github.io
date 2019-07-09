@@ -1,57 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jul 2019 11:09:17 GMT</lastBuildDate><item><title><![CDATA[첫 웹사이트 mysql,php와 통해 제작]]></title><description><![CDATA[첫 웹사이트 php,mysql,html,js,css]]></description><link>https://chaeyounsong.github.io//posts/190704-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190704-til/</guid><pubDate>Thu, 04 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/test-home.jpg&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;bootstrap-library로-홈페이지-디자인하기&quot;&gt;&lt;a href=&quot;#bootstrap-library%EB%A1%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%98%EA%B8%B0&quot; aria-label=&quot;bootstrap library로 홈페이지 디자인하기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bootstrap library로 홈페이지 디자인하기&lt;/h2&gt;
-&lt;p&gt;css파일에 일일히 만들다가 알게 된
-library 개발자는 생산성에 초점을 두기 때문에
-자주 사용하는 기능은 라이브러리를 통해 진행하게 된다고 한다. 사용해보니 ^_ㅠ 정말 편안하다.&lt;/p&gt;
-&lt;p&gt;그래도 한 줄 한 줄 쌓아올린 내 코드도 사랑스럽다!&lt;/p&gt;
-&lt;h2 id=&quot;library-사용법&quot;&gt;&lt;a href=&quot;#library-%EC%82%AC%EC%9A%A9%EB%B2%95&quot; aria-label=&quot;library 사용법 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;library 사용법&lt;/h2&gt;
-&lt;p&gt;라이브러리에서 제공하는 소스를
-서버의 root 폴더에 저장한다.&lt;/p&gt;
-&lt;p&gt;그리고 사이트 메뉴얼을 읽고 마음에 드는 내용의
-class를 지정한다.&lt;/p&gt;
-&lt;p&gt;또한 몇몇 기능은 div로 묶어달라는 말이 있다.
-이는 버튼을 만들 때 유사한 버튼은
-통일성을 갖춘 디자인으로 유도할 때 사용된다.&lt;/p&gt;
-&lt;p&gt;메뉴얼 스텝대로 따라하면 적용 완료 ^^&lt;/p&gt;
-&lt;h2 id=&quot;자가-서버를-열어서-웹에-오픈하려다-중지&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EA%B0%80-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%97%B4%EC%96%B4%EC%84%9C-%EC%9B%B9%EC%97%90-%EC%98%A4%ED%94%88%ED%95%98%EB%A0%A4%EB%8B%A4-%EC%A4%91%EC%A7%80&quot; aria-label=&quot;자가 서버를 열어서 웹에 오픈하려다 중지 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자가 서버를 열어서 웹에 오픈하려다 중지&lt;/h2&gt;
-&lt;p&gt;현재 내 사이트 서버는 내 PC에
-bitnami 설치해 사용했다.&lt;/p&gt;
-&lt;p&gt;그러다 공유기 iptime에 로그인에서
-포트포워딩을 통해 사이트를 공유할 수 있음을 알고 진행하려
-했다. 보안 담당자인 남편의 조언으로 중지하기로 했다.&lt;/p&gt;
-&lt;p&gt;서버를 직접 돌려보는 건 좋은 경험이 되겠지만
-해커가 만든 프로그램이 열려있는 웹 사이트마다
-취약점을 건드리는 코드를 넣어본다고 한다.&lt;/p&gt;
-&lt;h2 id=&quot;보안에-신경쓰자-해킹방법&quot;&gt;&lt;a href=&quot;#%EB%B3%B4%EC%95%88%EC%97%90-%EC%8B%A0%EA%B2%BD%EC%93%B0%EC%9E%90-%ED%95%B4%ED%82%B9%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;보안에 신경쓰자 해킹방법 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;보안에 신경쓰자, 해킹방법&lt;/h2&gt;
-&lt;p&gt;취약점을 건드리는 코드 같은 경우는
-php나 mysql같은 코드의 문법에 접근하는 것이다.&lt;/p&gt;
-&lt;p&gt;보안이 취약한 개인 유저의 사이트에&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;언제나 true값을 유도해 비밀번호가 틀려도
-데이터를 볼 수 있도록 접근하는 프로그램이 있다고 한다.
-그래서 password나 id 등 유저의 정보를 유추할 수 있는
-직관적인 이름들은 알아보기 어려운 문자열로 바꿔주는
-프로그램을 통해 관리자끼리 공유한다고 한다.&lt;/p&gt;
-&lt;p&gt;(멘토 Yeri님이 ㅠㅠ 말해준 게 이거 였구나 무릎탁!)&lt;/p&gt;
-&lt;h2 id=&quot;개인-사이트를-만들려면-웹-호스팅&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9D%B8-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EB%A0%A4%EB%A9%B4-%EC%9B%B9-%ED%98%B8%EC%8A%A4%ED%8C%85&quot; aria-label=&quot;개인 사이트를 만들려면 웹 호스팅 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개인 사이트를 만들려면, 웹 호스팅&lt;/h2&gt;
-&lt;p&gt;개인 사이트를 만들려면 웹 호스팅 서버를 이용해야하는 게 좋을 듯 하다 많은 트래픽이 필요한 게 아니라면 무료 웹 호스팅을 이용하면 될 듯하다.&lt;/p&gt;
-&lt;h2 id=&quot;클라우드의-장점-종량제화-가상화&quot;&gt;&lt;a href=&quot;#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%9D%98-%EC%9E%A5%EC%A0%90-%EC%A2%85%EB%9F%89%EC%A0%9C%ED%99%94-%EA%B0%80%EC%83%81%ED%99%94&quot; aria-label=&quot;클라우드의 장점 종량제화 가상화 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;클라우드의 장점 종량제화, 가상화&lt;/h2&gt;
-&lt;p&gt;클라우드는 웹하드만 알고 있었다 ^^;&lt;/p&gt;
-&lt;p&gt;지금 당장 내 사이트에서는 일어날 수 없는 일이지만,
-페이스북, 트위터, 인스타그램 등
-유저가 자주 접속하는 환경이 되면서 서버가 다운될 수 있다.
-그러면 비지니스 쟁점에 올라온 사업자 입장에서는
-기회를 놓칠 수 있는 안타까운 상황에 직면하게 된다.&lt;/p&gt;
-&lt;p&gt;그래서 클라우드를 도입하게 된다.
-클라우드는 트래픽 cpu를 계속 체크하다,
-설정한 일정치에 미달하게 되면 가상 컴퓨터를 생성해 구동시킨다.&lt;/p&gt;
-&lt;p&gt;만약에 많은 사람이 올지도 모르기 때문에
-컴퓨터를 미리 많은 양으로 돌리고 있다면,
-비용이 발생되고 효율성을 잃어버릴 수 있다.&lt;/p&gt;
-&lt;p&gt;컴퓨터의 사용이 낭비되는 구간도 있기 때문이다.&lt;/p&gt;
-&lt;p&gt;그래서 클라우드 기능을 도입하게 되었다고 한다.
-이외에도 수만명, 수억만의 유저가 접속해도 대비하도록
-준비된 프로그램들이 많다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[첫 웹사이트 mysql,php와 통해 제작]]></title><description><![CDATA[첫 웹사이트 php,mysql,html,js,css]]></description><link>https://chaeyounsong.github.io//posts/190704-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190704-til/</guid><pubDate>Thu, 04 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/uploader.jpg&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://chaeyounsong.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jul 2019 13:39:05 GMT</lastBuildDate><item><title><![CDATA[첫 웹사이트 mysql,php와 통해 제작]]></title><description><![CDATA[첫 웹사이트 php,mysql,html,js,css]]></description><link>https://chaeyounsong.github.io//posts/190704-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190704-til/</guid><pubDate>Thu, 04 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/uploader.jpg&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;indexphp&quot;&gt;&lt;a href=&quot;#indexphp&quot; aria-label=&quot;indexphp permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;index.php&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token php language-php&quot;&gt;&lt;span class=&quot;token delimiter important&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;token variable&quot;&gt;$conn&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mysqli_connect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;localhost&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;root&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;-p&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -200,7 +147,60 @@ PHP안에 여러 페이지를 운영할 수 있었다.&lt;/p&gt;
 후에 value를 수정하거나 삭제해야할 때도 ID를 기준으로
 작업하게 된다.&lt;/p&gt;
 &lt;p&gt;ID라는 개념을 만들었다는 사실에 놀라고
-감사한다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹이 돌아가는 골격 html,css,js,php]]></title><description><![CDATA[how to process to webpage.]]></description><link>https://chaeyounsong.github.io//posts/190703-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190703-til/</guid><pubDate>Wed, 03 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
+감사한다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[첫 웹사이트 mysql,php와 통해 제작]]></title><description><![CDATA[첫 웹사이트 php,mysql,html,js,css]]></description><link>https://chaeyounsong.github.io//posts/190704-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190704-til/</guid><pubDate>Thu, 04 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/test-home.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;bootstrap-library로-홈페이지-디자인하기&quot;&gt;&lt;a href=&quot;#bootstrap-library%EB%A1%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%98%EA%B8%B0&quot; aria-label=&quot;bootstrap library로 홈페이지 디자인하기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bootstrap library로 홈페이지 디자인하기&lt;/h2&gt;
+&lt;p&gt;css파일에 일일히 만들다가 알게 된
+library 개발자는 생산성에 초점을 두기 때문에
+자주 사용하는 기능은 라이브러리를 통해 진행하게 된다고 한다. 사용해보니 ^_ㅠ 정말 편안하다.&lt;/p&gt;
+&lt;p&gt;그래도 한 줄 한 줄 쌓아올린 내 코드도 사랑스럽다!&lt;/p&gt;
+&lt;h2 id=&quot;library-사용법&quot;&gt;&lt;a href=&quot;#library-%EC%82%AC%EC%9A%A9%EB%B2%95&quot; aria-label=&quot;library 사용법 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;library 사용법&lt;/h2&gt;
+&lt;p&gt;라이브러리에서 제공하는 소스를
+서버의 root 폴더에 저장한다.&lt;/p&gt;
+&lt;p&gt;그리고 사이트 메뉴얼을 읽고 마음에 드는 내용의
+class를 지정한다.&lt;/p&gt;
+&lt;p&gt;또한 몇몇 기능은 div로 묶어달라는 말이 있다.
+이는 버튼을 만들 때 유사한 버튼은
+통일성을 갖춘 디자인으로 유도할 때 사용된다.&lt;/p&gt;
+&lt;p&gt;메뉴얼 스텝대로 따라하면 적용 완료 ^^&lt;/p&gt;
+&lt;h2 id=&quot;자가-서버를-열어서-웹에-오픈하려다-중지&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EA%B0%80-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%97%B4%EC%96%B4%EC%84%9C-%EC%9B%B9%EC%97%90-%EC%98%A4%ED%94%88%ED%95%98%EB%A0%A4%EB%8B%A4-%EC%A4%91%EC%A7%80&quot; aria-label=&quot;자가 서버를 열어서 웹에 오픈하려다 중지 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자가 서버를 열어서 웹에 오픈하려다 중지&lt;/h2&gt;
+&lt;p&gt;현재 내 사이트 서버는 내 PC에
+bitnami 설치해 사용했다.&lt;/p&gt;
+&lt;p&gt;그러다 공유기 iptime에 로그인에서
+포트포워딩을 통해 사이트를 공유할 수 있음을 알고 진행하려
+했다. 보안 담당자인 남편의 조언으로 중지하기로 했다.&lt;/p&gt;
+&lt;p&gt;서버를 직접 돌려보는 건 좋은 경험이 되겠지만
+해커가 만든 프로그램이 열려있는 웹 사이트마다
+취약점을 건드리는 코드를 넣어본다고 한다.&lt;/p&gt;
+&lt;h2 id=&quot;보안에-신경쓰자-해킹방법&quot;&gt;&lt;a href=&quot;#%EB%B3%B4%EC%95%88%EC%97%90-%EC%8B%A0%EA%B2%BD%EC%93%B0%EC%9E%90-%ED%95%B4%ED%82%B9%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;보안에 신경쓰자 해킹방법 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;보안에 신경쓰자, 해킹방법&lt;/h2&gt;
+&lt;p&gt;취약점을 건드리는 코드 같은 경우는
+php나 mysql같은 코드의 문법에 접근하는 것이다.&lt;/p&gt;
+&lt;p&gt;보안이 취약한 개인 유저의 사이트에&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;언제나 true값을 유도해 비밀번호가 틀려도
+데이터를 볼 수 있도록 접근하는 프로그램이 있다고 한다.
+그래서 password나 id 등 유저의 정보를 유추할 수 있는
+직관적인 이름들은 알아보기 어려운 문자열로 바꿔주는
+프로그램을 통해 관리자끼리 공유한다고 한다.&lt;/p&gt;
+&lt;p&gt;(멘토 Yeri님이 ㅠㅠ 말해준 게 이거 였구나 무릎탁!)&lt;/p&gt;
+&lt;h2 id=&quot;개인-사이트를-만들려면-웹-호스팅&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9D%B8-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EB%A0%A4%EB%A9%B4-%EC%9B%B9-%ED%98%B8%EC%8A%A4%ED%8C%85&quot; aria-label=&quot;개인 사이트를 만들려면 웹 호스팅 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개인 사이트를 만들려면, 웹 호스팅&lt;/h2&gt;
+&lt;p&gt;개인 사이트를 만들려면 웹 호스팅 서버를 이용해야하는 게 좋을 듯 하다 많은 트래픽이 필요한 게 아니라면 무료 웹 호스팅을 이용하면 될 듯하다.&lt;/p&gt;
+&lt;h2 id=&quot;클라우드의-장점-종량제화-가상화&quot;&gt;&lt;a href=&quot;#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%9D%98-%EC%9E%A5%EC%A0%90-%EC%A2%85%EB%9F%89%EC%A0%9C%ED%99%94-%EA%B0%80%EC%83%81%ED%99%94&quot; aria-label=&quot;클라우드의 장점 종량제화 가상화 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;클라우드의 장점 종량제화, 가상화&lt;/h2&gt;
+&lt;p&gt;클라우드는 웹하드만 알고 있었다 ^^;&lt;/p&gt;
+&lt;p&gt;지금 당장 내 사이트에서는 일어날 수 없는 일이지만,
+페이스북, 트위터, 인스타그램 등
+유저가 자주 접속하는 환경이 되면서 서버가 다운될 수 있다.
+그러면 비지니스 쟁점에 올라온 사업자 입장에서는
+기회를 놓칠 수 있는 안타까운 상황에 직면하게 된다.&lt;/p&gt;
+&lt;p&gt;그래서 클라우드를 도입하게 된다.
+클라우드는 트래픽 cpu를 계속 체크하다,
+설정한 일정치에 미달하게 되면 가상 컴퓨터를 생성해 구동시킨다.&lt;/p&gt;
+&lt;p&gt;만약에 많은 사람이 올지도 모르기 때문에
+컴퓨터를 미리 많은 양으로 돌리고 있다면,
+비용이 발생되고 효율성을 잃어버릴 수 있다.&lt;/p&gt;
+&lt;p&gt;컴퓨터의 사용이 낭비되는 구간도 있기 때문이다.&lt;/p&gt;
+&lt;p&gt;그래서 클라우드 기능을 도입하게 되었다고 한다.
+이외에도 수만명, 수억만의 유저가 접속해도 대비하도록
+준비된 프로그램들이 많다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹이 돌아가는 골격 html,css,js,php]]></title><description><![CDATA[how to process to webpage.]]></description><link>https://chaeyounsong.github.io//posts/190703-til/</link><guid isPermaLink="false">https://chaeyounsong.github.io//posts/190703-til/</guid><pubDate>Wed, 03 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/image-4.jpg&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;웹이-돌아가는-골격-공부하기&quot;&gt;&lt;a href=&quot;#%EC%9B%B9%EC%9D%B4-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EA%B3%A8%EA%B2%A9-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0&quot; aria-label=&quot;웹이 돌아가는 골격 공부하기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;웹이 돌아가는 골격 공부하기&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
